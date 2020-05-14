@@ -21,7 +21,7 @@ body {
 }
 
 .image_holder {
-  position: relative;
+  position: fixed;
   top: 30%;
   bottom: 20%;
   left: 25%;
@@ -52,6 +52,8 @@ body {
 
 img {
   border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .footer_1 {
