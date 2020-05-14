@@ -1,0 +1,138 @@
+#sticky-footer {
+  bottom: 0px;
+  flex-shrink: none;
+}
+body {
+  background-color: lightblue;
+  background-image: url("./img/programming_image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.footer-1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+  background-color: cyan;
+}
+
+.image_holder {
+  position: fixed;
+  top: 30%;
+  bottom: 20%;
+  left: 25%;
+  right: 25%;
+  background-color: white;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.image_frame {
+  position: relative;
+  top: 10%;
+  right: 5%;
+  float: right;
+}
+
+.text_frame {
+  position: relative;
+  padding: 30px;
+  margin: 30px;
+  top: 0%;
+  left: 10%;
+  width: 40%;
+  float: left;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.footer_1 {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  bottom: 2%;
+  padding: 10px 15px;
+  align-items: center;
+  background-color: #343c4a;
+}
+
+.footer_text {
+  position: relative;
+  height: 80%;
+  align-self: center;
+  padding: 14px;
+  text-align: right;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  display: inline-block;
+}
+.footer_element {
+  position: relative;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
