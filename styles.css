@@ -21,7 +21,7 @@ body {
 }
 
 .image_holder {
-  position: fixed;
+  position: relative;
   top: 30%;
   bottom: 20%;
   left: 25%;
