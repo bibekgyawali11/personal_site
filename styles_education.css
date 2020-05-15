@@ -4,9 +4,6 @@
 }
 body {
   background-color: lightblue;
-  background-image: url("./img/programming_image.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .footer-1 {
@@ -40,8 +37,8 @@ body {
 
 .text_frame {
   position: relative;
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 30px;
   top: 0%;
   left: 10%;
   width: 40%;
@@ -137,4 +134,14 @@ img {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.progress{
+  position: relative;
+  width: 25%;
+}
+
+.progress-bar{
+  position: relative;
+  width: 100%
 }
