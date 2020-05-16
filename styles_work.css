@@ -6,6 +6,7 @@ body {
   background-color: lightblue;
 }
 
+
 .footer-1 {
   position: fixed;
   bottom: 0;
@@ -74,6 +75,7 @@ img {
   color: white;
   display: inline-block;
 }
+
 .footer_element {
   position: relative;
 }
@@ -86,6 +88,10 @@ img {
   border-radius: 50%;
 }
 
+
+.job_item{
+  float: bottom;
+}
 .fa:hover {
   opacity: 0.7;
 }
@@ -136,17 +142,9 @@ img {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
-.job-item{
-  position: fixed;
-  left:10%;
-  text-align: left;
-  border: 4px solid red;
-}
-
-.job-period{
+.job_item{
   position: relative;
-  font-size: 12px;
-  right: 0%;
-  color: red;
+  top: 1%;
+  color: white;
+  z-index: 2;
 }

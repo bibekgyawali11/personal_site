@@ -5,8 +5,11 @@
 body {
   background-color: lightblue;
   background-image: url("./img/programming_image.png");
+  background-position: center center;
+
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .footer-1 {
