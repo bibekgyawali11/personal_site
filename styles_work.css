@@ -159,7 +159,7 @@ img {
   top: 2%;
   padding: 1%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: x-large;
+  font-size: xx-large;
   position: relative;
 }
 
@@ -169,8 +169,8 @@ img {
   padding: 1%;
   right: 20%;
   font-family: cursive;
-  font-size: large;
-  color: red;
+  font-size: x-large;
+  color: black;
 }
 
 .job_function{
