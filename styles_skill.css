@@ -74,6 +74,7 @@ img {
   color: white;
   display: inline-block;
 }
+
 .footer_element {
   position: relative;
 }
@@ -134,4 +135,24 @@ img {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container1{
+}
+
+.skill_item{
+  color: black;
+  margin: 4px;
+  padding: 10px;
+  position: relative;
+}
+
+hr{
+  margin: 1%;
+  border: 1px dotted blue;
+}
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 4;
 }
