@@ -135,3 +135,39 @@ img {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+.container1{
+}
+
+.project_item{
+  color: black;
+  margin: 2px;
+  padding: 2px;
+  position: relative;
+}
+.project_title{
+  top: 2%;
+  padding: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  position: relative;
+}
+
+.project_period{
+  position: absolute;
+  top: 2%;
+  padding: 1%;
+  right: 20%;
+  font-family: cursive;
+  font-size: x-large;
+  color: black;
+}
+
+.project_function{
+  left: 1%;
+  bottom: 4%;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  position: relative;
+}
